@@ -1,0 +1,56 @@
+1.  A block-level element is an HTML element that begins a new 	   line on a web page and extends the full width of the 	
+	available horizontal space of its parent element. 
+	Block-level elements are used within the HTML document's body. They can contain inline elements, as well as other block-level elements.
+
+
+    In contrast to a block-level element, an inline element:
+
+      a)It can begin within a line.
+      b)It does not start a new line.
+      c)Its width only extends as far as it is defined by its 
+        tags. 
+
+2. visibility:hidden => it is a property used to specify 
+     whether the element of a webpage is hidden or not. it also occupies the space in the web page, but it's just hidden from the main content.
+
+   display:none=> it simply specifies if the element exist or 
+     not.    
+
+3. Clear Property: It is related to float only but the only 
+  	difference is that whether you want to float the element next to existing floated element or not. In an easy way, if an element can be floated in horizontal space next to floated elements(it will) unless you want to clear property to that element in the same direction of float.
+  
+  	Float Property: This property is specifically used for layout and positioning of elements inside a web page. There are various paramenters associated with it such as right, left etc.
+
+
+4.Static: it is the natural or default position of elements existing in the webpage. They stack up in order and we dont need to specify static in order to make them behave this way.
+  
+   Relaative: it relatively positions an element within the flow of the document.
+
+   Absolute: it removes the element from the flow of content and allows it to be positioned in relation of the HTML document. Absolute positioned elements scrolls with the page.
+
+   Fixed: It removes the element from the flow of the HTML and allows them to positioned anywhere and it is fixed. it's postion is relative to the browser not the HTML document. It does not move with the page when scrolling.	
+   
+6.Meta tag is used to give description abut the data anything in mata tag will not be displayed on screen.Mata elements are used to specify page description it is used by search engine to search your page.
+
+7 CSS Box Model is that all the elements of HTML page is wrapped in a box 
+	it consists of :Margins,Border,Padding,content
+		
+    Content - The content of the box, where text and images appear
+    Padding - Clears an area around the content. The padding is transparent
+    Border - A border that goes around the padding and content
+    Margin - Clears an area outside the border. The margin is transparent
+ 8 Selectors are used to select HTML element you want to style Types of Selectors	are:-
+	1.Simple Selectors(based on name,id,class)
+	2.Pseudo-class selectors (based on a certain state i.e style an element 		when you hover mouse over it,Viseted,Unvisited)
+	3.Pseudo-elements selectors (select and style a part of an element 			ie.colour 1st letter of word)
+	4.Attribute selectors (select elements based on an attribute or attribute 		value)
+9.The <!DOCTYPE> declaration is not an HTML tag; it is an instruction to the web 	browser about what version of HTML the page is written in.
+10. 1.The <header> element defines a header of your document. It is always visible for the users at the top of the page
+    2.<nav> depicts the space for navigation links on your page
+    3.The <section> tags are used to define a separate section within a webpage, with its 	own content
+    4.The <article> element can be used to define the article content on your website.      
+    5.The HTML5 <footer> element describes the footnote for your website or part of the 	content
+	
+
+
+
