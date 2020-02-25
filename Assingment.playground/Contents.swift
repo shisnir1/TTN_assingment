@@ -63,7 +63,7 @@ country(FristStructure: e1, SecondStructure: e2)
 
 //Third question
 func department (FristStructure :[EmployeePersonalInformation], SecondStructure:[EmployeeProfessional] ){
-   let mydepartment="IOS"
+   let mydepartment="Ios"
     var answer=[String]()
     for i in 0...2 {
         if SecondStructure[i].department==mydepartment{
@@ -74,7 +74,56 @@ func department (FristStructure :[EmployeePersonalInformation], SecondStructure:
         }
         }
     }
-country(FristStructure: e1, SecondStructure: e2)
+department(FristStructure: e1, SecondStructure: e2)
+
+//Fourth question
+
+func countryBranch (FristStructure :[EmployeePersonalInformation], SecondStructure:[EmployeeProfessional] ){
+   let mycountry="India"
+    var answer=[String]()
+    for i in 0...3{
+        for j in 0...3{
+        if FristStructure[i].country==mycountry &&  SecondStructure[j].branch==mycountry
+            {
+            answer.append(FristStructure[i].name)
+            print(answer)
+            }
+            
+        }
+        }
+        }
+
+countryBranch(FristStructure: e1, SecondStructure: e2)
+//Fifth Question
+
+func hobby (FristStructure :[EmployeePersonalInformation], SecondStructure:[EmployeeProfessional] ){
+    for i in 0...3{
+        if FristStructure[i].hobbie != nil
+            {
+            print(FristStructure[i])
+            }
+            
+        }
+        }
+        
+
+hobby(FristStructure: e1, SecondStructure: e2)
+
+//last question
+
+func startwith (FristStructure :[EmployeePersonalInformation], SecondStructure:[EmployeeProfessional] ){
+    for i in 0...3{
+        if FristStructure[i].name.first == "S"
+            {
+            print(FristStructure[i])
+            }
+            
+        }
+        }
+        
+
+startwith(FristStructure: e1, SecondStructure: e2)
+
 
 
 
