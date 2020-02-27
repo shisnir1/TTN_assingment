@@ -7,7 +7,14 @@ var emptyDict1 = [String: Int]()
 var emptyDict2 = Dictionary<String, String>()
 var emptyDict3 :Dictionary<String,String> = [String: String]()
 
-// Ques 2: Create a mutable dictionary named secretIdentities where the key value pairs are "Hulk" -> "Bruce Banner", "Batman" -> "Bruce Wayne", and "Superman" -> "Clark Kent".
+//2. Create a mutable dictionary named secretIdentities where the key value pairs are "Hulk" -> "Bruce Banner", "Batman" -> "Bruce Wayne", and "Superman" -> "Clark Kent".
+var secretIdentities = ["Hulk" : "Bruce banner", "Batman" : "Bruce Wayne", "Superman" : "Clark Kent"]
+
+//3. Create a nested structure of Key-value pair.
+let nesterStructureOfKeyValue : [String : AnyObject] = ["Hulk" : ["Bruce" : "Banner"] as AnyObject,
+                                                        "Batman" : ["Bruce" : "Wayne"] as AnyObject,
+                                                        "Superman" : ["Clark" : "Kent"] as AnyObject,
+                                                        "Spiderman" : ["Peter" : ["Ben" : "Parker"]] as AnyObject]
 
 
 // Ques 4: Print all the keys in the dic.
