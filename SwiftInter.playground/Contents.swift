@@ -65,3 +65,31 @@ class Calculator{
     
 }
 
+//Question 3 -
+//
+//Make the same calculator using functions as an argument, define all type functions in a struct.
+struct Operation {
+
+       static func addition(a : Int, b : Int) -> Int {
+           return a + b
+       }
+
+       static func subtraction(a : Int, b : Int) -> Int {
+           return a - b
+       }
+
+       static func multiplication(a : Int, b : Int) -> Int {
+           return a * b
+       }
+
+       static func division(a : Int, b : Int) -> Int {
+           return a / b
+       }
+       
+   }
+
+
+let abc2 = abc.equals(argumentAs: Operation.addition(a:b:), num1: 1, num2: 2)
+
+
+
