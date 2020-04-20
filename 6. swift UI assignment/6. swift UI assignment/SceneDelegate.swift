@@ -2,8 +2,8 @@
 //  SceneDelegate.swift
 //  6. Swift UI assignment
 //
-//  Created by Mohit Pareek  on 17/03/20.
-//  Copyright © 2020 Mohit Pareek . All rights reserved.
+//  Created by Shishir Singh  on 17/03/20.
+//  Copyright © 2020 Shishir Singh . All rights reserved.
 //
 
 import UIKit
