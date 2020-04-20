@@ -2,8 +2,8 @@
 //  SelfSizingCollectionVC.swift
 //  5. Compilation
 //
-//  Created by Mohit Pareek  on 15/03/20.
-//  Copyright © 2020 Mohit Pareek . All rights reserved.
+//  Created by Shishir Singh  on 15/03/20.
+//  Copyright © 2020 Shishir Singh . All rights reserved.
 //
 
 import UIKit
